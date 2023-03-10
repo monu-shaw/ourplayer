@@ -1,5 +1,5 @@
 const cacheName = "app-shell";
-const precacheUrls = ["index.html"];
+const precacheUrls = ["/ourplayer/index.html"];
 const broadcastChannel = new BroadcastChannel("sw");
 
 function attachEvents() {
